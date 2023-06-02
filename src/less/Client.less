@@ -1,38 +1,90 @@
 // App Header
 
+@primarycolor : #0d519e;
+
+ 
+@shade: #eff2f5;
+@shapes: #dff7ff;
+
+
 .appHeader{
-    height: 60px;
+    // height: 30;
+    // display: flex;
+    // -ms-flex-item-align: baseline;
+    // gap: 10;
+    // justify-content: center;
+    // // align-items: center;
+    // // background-color: @shapes;
+    // color: black;
+    // // border-radius: round(3%);
+    // position: fixed;
+    // top: 0;
+    // width:100%;
+    // padding-top: 10;
+    width: 100%;
+    position: sticky;
     display: flex;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-   
+    text-align: center;
+    padding: 10px 16px;
+    // padding-right: var(--bs-gutter-x,.75rem);
+    // padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    position: sticky;
+    box-shadow: none;
+    position: sticky
+    
+
+}
+body{
+    // background-color: @primarycolor;
 }
 
 // Client
 
 .collapse{
-    background-color: #eee;
-    color: #444;
+    margin-bottom: 24px;
+    background-color: @shade;
     padding: 18px;
     width: 100%;
-    border: none;
     text-align: left;
-    outline: none;
+    outline: hidden;
     font-size: 15px;
+    border: hidden;
+    border-end-end-radius: false;
+
    
 }
 
-.content{
-   padding: 0 18px;
-   overflow: hidden;
-   background-color: #f1f1f1;
+
+// .content{
+   
+//    overflow: hidden;
+//    background-color: @shade;
+//    background: @shade;
+//    border: hidden;
+//    font-family: 'Times New Roman', Times, serif;
+// }
+
+.spread{
+    // background-color: @shapes;
+    padding: 16px;
 }
+
+p{
+     
+        
+
+}
+
+
 
 
 
 .container{
     height: auto;
+    margin: 25px;
     width: auto;
     align-items: center;
     justify-content: center;
@@ -41,7 +93,8 @@
     padding: 20px 20px;
 
     h1{
-        
+        font-family: verdana;
+        // color: @shapes;
     }
    
 }
