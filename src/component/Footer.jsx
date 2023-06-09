@@ -1,8 +1,12 @@
 import React from 'react'
+import "../less/Client.less"
+
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <>
+    <h1 className='header'>Hello</h1>
+    </>
   )
 }
 
